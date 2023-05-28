@@ -1,9 +1,15 @@
 import "./App.css";
 
 function App() {
-  function dataLoad() {}
+  function dataLoad() {
+    alert("Working");
+  }
 
-  return <></>;
+  return (
+    <>
+      <button onClick={dataLoad}>Load</button>
+    </>
+  );
 }
 
 export default App;
