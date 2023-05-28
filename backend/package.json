@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Sample backend for JWT App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoornaSenadheera100/JWT-React-App.git"
+  },
+  "author": "Poorna Senadheera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PoornaSenadheera100/JWT-React-App/issues"
+  },
+  "homepage": "https://github.com/PoornaSenadheera100/JWT-React-App#readme"
+}
