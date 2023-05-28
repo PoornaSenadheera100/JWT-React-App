@@ -10,7 +10,11 @@ const sampleData = [
 ];
 
 app.get("/users", (req, res) => {
-  res.json(sampleData);
+  if (req.headers.authorization === `Bearer ${process.env.authToken}`) {
+    res.status(200).json(sampleData);
+  } else {
+    res.status(401).send("Unauthorized");
+  }
 });
 
 app.listen(PORT, () => {
